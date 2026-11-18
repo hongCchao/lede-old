@@ -1,7 +1,9 @@
-src-git packages https://github.com/coolsnowwolf/packages
-src-git luci https://github.com/coolsnowwolf/luci
-src-git routing https://github.com/coolsnowwolf/routing
-src-git telephony https://git.openwrt.org/feed/telephony.git
+src-git packages https://github.com/hongCchao/packages.git
+src-git luci https://github.com/hongCchao/luci-old.git
+src-git routing https://github.com/hongCchao/routing-old.git
+src-git telephony https://github.com/hongCchao/telephony.git
+
+# 以下全部注释，保持旧版环境
 #src-git helloworld https://github.com/fw876/helloworld.git
 #src-git oui https://github.com/zhaojh329/oui.git
 #src-git video https://github.com/openwrt/video.git
