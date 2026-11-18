@@ -17,6 +17,7 @@ mediatek_setup_interfaces()
 		;;
 	cetron,ct3003*|\
 	jcg,q30-pro|\
+	360,t7|\
 	qihoo,360t7)
 		ucidef_set_interfaces_lan_wan "lan1 lan2 lan3" wan
 		;;
@@ -77,6 +78,7 @@ mediatek_setup_macs()
 		lan_mac=$(macaddr_add "$wan_mac" 1)
 		label_mac=$wan_mac
 		;;
+	360,t7|\
 	qihoo,360t7)
 		lan_mac=$(mtd_get_mac_ascii factory lanMac)
 		wan_mac=$(macaddr_add "$lan_mac" 1)
